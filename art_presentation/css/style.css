@@ -1,27 +1,45 @@
 body {
 
-    background-color: #4d6e8a;
+    background-color:black;
+    padding: 30px;
 
 }
 
 p {
 
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Karla', sans-serif;
     color: #c1d8de;
 }
 
 h1 {
 
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Cute Font', cursive;
     color: white;
-    font-size: 40px;
-
+    font-size: 200px;
+    margin-top: 250px;
+    text-align: center;
 }
 
 h2 {
 
-    font-family: Helvetica, Arial, sans-serif;
-    color: #7c9aa1;
-    font size 20px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+
 
 }

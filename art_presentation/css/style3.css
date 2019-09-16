@@ -1,0 +1,68 @@
+body {
+
+    background-color:black;
+    padding: 30px;
+
+}
+
+p {
+
+    font-family: 'Karla', sans-serif;
+    color:#268635;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+h1 {
+
+    font-family: 'Cute Font', cursive;
+    color:#268635;
+    font-size: 200px;
+    margin: 2px;
+    text-align: center;
+}
+
+h2 {
+
+    font-family: 'Cute Font', cursive;
+    color: #268635;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+
+h5 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color:#44a753;
+}
+
+h6 {
+    font-family: 'Cute Font', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 2px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.desc {
+    margin-left: 60px;
+    margin-right: 60px;
+}
