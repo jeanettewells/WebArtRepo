@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+}
+
+.wrapper{
+    position: relative; 
+
+    width: 30%;
+    height: 740px;
+    background-color: black;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 0px;
+    border-radius: 8%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box {
+    float: left;
+    width: 19%;
+    height: 100%;
+    margin: 3%;
+    background-color: rgb(146, 197, 226);
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    transition: 1s;
+}
+
+.box:hover {
+    transform: scale(2);
+}
+
+.row {
+    height: 10.8%;
+}
+
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.jm {
+    background-image: url(../images/jmw.png)
+}
+
+.tp {
+    background-image: url(../images/tp.png)
+}
+
+.kp {
+    background-image: url(../images/kp.png)
+}
+
+.mb {
+    background-image: url(../images/mb.png)
+}
+
+.ck {
+    background-image: url(../images/ck.png)
+}
+
+.rl {
+    background-image: url(../images/rl.jpg)
+}
+
+.dr {
+    background-image: url(../images/dr.png)
+}
+
+.kh {
+    background-image: url(../images/kh.png)
+}
+
+.c {
+    background-image: url(../images/c.jpg)
+}
+
+.pd {
+    background-image: url(../images/pd.png)
+}
+
+.mp {
+    background-image: url(../images/mp.jpg)
+}
+
+.hs {
+    background-image: url(../images/hs.jpg)
+}
+
+.cu {
+    background-image: url(../images/cu.jpg)
+}
+
+.tw {
+    background-image: url(../images/tw.jpg)
+}
+
+.jo {
+    background-image: url(../images/jo.png)
+}
+
+.nb {
+    background-image: url(../images/nb.png)
+}
+
+.kd {
+    background-image: url(../images/kd.png)
+}
+
+.yk {
+    background-image: url(../images/yk.png)
+}
+
+.cdz {
+    background-image: url(../images/cdz.png)
+}
+
+.js {
+    background-image: url(../images/js.png)
+}
+
+.kj {
+    background-image: url(../images/kj.png)
+}
+
+.ab {
+    background-image: url(../images/ab.png)
+}
+
+.hj {
+    background-image: url(../images/hj.png)
+}
+
+.mm {
+    background-image: url(../images/mm.png)
+}
+
+.av {
+    background-image: url(../images/av.png)
+}
+
+.yh {
+    background-image: url(../images/yh.png)
+}
+
+.md {
+    background-image: url(../images/md.png)
+}
+
+.sm {
+    background-image: url(../images/sm.png)
+}

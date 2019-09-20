@@ -1,0 +1,26 @@
+.box{
+    width: 800px;
+    height: 400px;
+    background-color: red;
+}
+
+#green-box{
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    margin: 20px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    /* display: block; */
+    background-color: pink;
+
+}
+
+p{
+    display: inline
+}
