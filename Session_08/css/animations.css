@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    position: relative;
+    margin: 0px auto;
+    background-color: aquamarine;
+    top: 10vh;
+    width: 80vw;
+    height: 80vh;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    animation-name: rounded;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes rounded {
+    0% {top: 0px; left: 0px; border-radius: 0; background-color: teal}
+    25% {top: 0px; left: 400px; border-radius: 12.5%; background-color: rgb(87, 176, 109)}
+    50% {top: 400px; left: 400px; border-radius: 25%; background-color: rgb(238, 240, 103)}
+    75% {top: 400px; left: 0px; border-radius: 37.5%; background-color: rgb(238, 131, 43)}
+    100% {top: 0px; left: 0px; border-radius: 50%; background-color: rgb(135, 17, 17)}
+}
+
+.teal {
+    background-color: teal;
+}

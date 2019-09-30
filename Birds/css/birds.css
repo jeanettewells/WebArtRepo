@@ -1,0 +1,852 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../images/cool.gif);
+    background-position: center;
+    background-size: contain;
+    height: 1000px;
+}
+
+/* div for in front and behinf */
+
+.infront {
+    z-index: 2;
+}
+
+.behind {
+    z-index: -2;
+}
+
+/* container for each cloud */
+#cloudcontainer {
+    position: relative;
+    margin: 0px auto;
+    top: -8000px;
+    left: -3000px;
+    width: 300px;
+    height: 180px;
+
+    animation-name: flow;
+    animation-duration: 15000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes flow {
+    0% {left: -4200px; top: -8000px}
+    100% {left: 5000px; top: -8000px} 
+}
+
+#cloudcontainer2 {
+    position: relative;
+    margin: 0px auto;
+    top: -1000px;
+    left: -3000px;
+    width: 3000px;
+    height: 1800px;
+
+    animation-name: flow2;
+    animation-duration: 10000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes flow2 {
+    0% {left: -4000px; top: -6000px}
+    100% {left: 5000px; top: -6000px} 
+} 
+
+#cloudcontainer3 {
+    position: relative;
+    margin: 0px auto;
+    top: -1000px;
+    left: -3000px;
+    width: 3000px;
+    height: 1800px;
+
+    animation-name: flow3;
+    animation-duration: 18000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes flow3 {
+    0% {left: -4000px; top: -5000px}
+    100% {left: 5000px; top: -5000px} 
+} 
+
+#cloudcontainer4 {
+    position: relative;
+    margin: 0px auto;
+    top: -1000px;
+    left: -3000px;
+    width: 3000px;
+    height: 1800px;
+
+    animation-name: flow4;
+    animation-duration: 12000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes flow4 {
+    0% {left: -4000px; top: -3000px}
+    100% {left: 5000px; top: -3000px} 
+} 
+
+/* parts of cloud */
+.cloud {
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 1300px;
+    height: 1300px;
+
+}
+
+
+.cloud2 {
+    position: relative;
+    top: -500px;
+    left: -400px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.75);
+    width: 900px;
+    height: 900px;
+}
+
+.cloud3 {
+    position: relative;
+    top: -1500px;
+    left: 600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.75);
+    width: 900px;
+    height: 900px;
+}
+
+.cloud4 {
+    position: relative;
+    top: -2200px;
+    left: 1000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.75);
+    width: 600px;
+    height: 600px;
+}
+
+.cloud5 {
+    position: relative;
+    top: -2800px;
+    left: -1000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.75);
+    width: 600px;
+    height: 600px;
+}
+
+#container:hover, #container1:hover, #container2:hover, #container3:hover, #container4:hover, #container5:hover, #container6:hover, #container7:hover, #container8:hover, #container9:hover, #container10:hover, #container11:hover, #container12:hover, #container13:hover, #container14:hover, #container15:hover, #container16:hover, #container17:hover, #container18:hover, #container19:hover, #container20:hover{
+    transform: scale(1);
+    animation-play-state: paused;
+    /* stop on hover? */
+}
+
+/* containers birds rest within */
+#container {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+    background-color: none;
+
+    animation-name: fly;
+    animation-duration: 5000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2000px}
+    50% {left: 0px; top: 1500px;}
+    75% {left: 1500px; top: 1000px;}
+    100% {left: 3000px; top: 500px}   
+}
+
+#container2 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly2;
+    animation-duration: 4500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly2 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2400px}
+    50% {left: 0px; top: 2300px;}
+    75% {left: 1500px; top: 2200px;}
+    100% {left: 3000px; top: 2100px}   
+}
+
+#container3 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly3;
+    animation-duration: 5500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly3 {
+    0% {left: -3000px; top: 1000px}
+    25% {left: -1500px; top: 1800px}
+    50% {left: 0px; top: 1600px;}
+    75% {left: 1500px; top: 1400px;}
+    100% {left: 3000px; top: 1200px}   
+}
+
+#container4 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly4;
+    animation-duration: 6000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly4 {
+    0% {left: -3000px; top: 2000px}
+    25% {left: -1500px; top: 1700px}
+    50% {left: 0px; top: 1400px;}
+    75% {left: 1500px; top: 1100px;}
+    100% {left: 3000px; top: 800px}   
+}
+
+#container5 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly5;
+    animation-duration: 6500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly5 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2100px}
+    50% {left: 0px; top: 1700px;}
+    75% {left: 1500px; top: 1300px;}
+    100% {left: 3000px; top: 900px}   
+}
+
+#container6 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly6;
+    animation-duration: 7000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly6 {
+    0% {left: -3000px; top: 800px}
+    25% {left: -1500px; top: 900px}
+    50% {left: 0px; top: 1000px;}
+    75% {left: 1500px; top: 1100px;}
+    100% {left: 3000px; top: 1200px}   
+}
+#container7 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly7;
+    animation-duration: 4000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly7 {
+    0% {left: -3000px; top: 4000px}
+    25% {left: -1500px; top: 3600px}
+    50% {left: 0px; top: 3400px;}
+    75% {left: 1500px; top: 3000px;}
+    100% {left: 3000px; top: 2600px}   
+}
+
+#container8 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly8;
+    animation-duration: 5700ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly8 {
+    0% {left: -3000px; top: 100px}
+    25% {left: -1500px; top: 500px}
+    50% {left: 0px; top: 1000px;}
+    75% {left: 1500px; top: 1500px;}
+    100% {left: 3000px; top:2000px}   
+}
+
+#container9 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly9;
+    animation-duration: 3800ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly9 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 1900px}
+    50% {left: 0px; top: 1300px;}
+    75% {left: 1500px; top: 700px;}
+    100% {left: 3000px; top: 100px}   
+}
+
+#container10 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly10;
+    animation-duration: 4200ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly10 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2000px}
+    50% {left: 0px; top: 1500px;}
+    75% {left: 1500px; top: 1000px;}
+    100% {left: 3000px; top: 500px}   
+}
+
+#container11 {
+    position: relative;
+    margin: 0px auto;
+    top: 20vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly11;
+    animation-duration: 3500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly11 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2000px}
+    50% {left: 0px; top: 1500px;}
+    75% {left: 1500px; top: 1000px;}
+    100% {left: 3000px; top: 500px}   
+}
+
+#container12 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly12;
+    animation-duration: 4100ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly12 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2400px}
+    50% {left: 0px; top: 2300px;}
+    75% {left: 1500px; top: 2200px;}
+    100% {left: 3000px; top: 2100px}   
+}
+
+#container13 {
+    position: relative;
+    margin: 0px auto;
+    top: 10px;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly13;
+    animation-duration: 5800ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly13 {
+    0% {left: -3000px; top: 2000px}
+    25% {left: -1500px; top: 1800px}
+    50% {left: 0px; top: 1600px;}
+    75% {left: 1500px; top: 1400px;}
+    100% {left: 3000px; top: 1200px}   
+}
+
+#container14 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly14;
+    animation-duration: 5500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly14 {
+    0% {left: -3000px; top: 2000px}
+    25% {left: -1500px; top: 1700px}
+    50% {left: 0px; top: 1400px;}
+    75% {left: 1500px; top: 1100px;}
+    100% {left: 3000px; top: 800px}  
+}
+
+#container15 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly15;
+    animation-duration: 5000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly15 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2100px}
+    50% {left: 0px; top: 1700px;}
+    75% {left: 1500px; top: 1300px;}
+    100% {left: 3000px; top: 900px} 
+}
+
+#container16 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly16;
+    animation-duration: 4500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly16 {
+    0% {left: -3000px; top: 800px}
+    25% {left: -1500px; top: 900px}
+    50% {left: 0px; top: 1000px;}
+    75% {left: 1500px; top: 1100px;}
+    100% {left: 3000px; top: 1200px}   
+}
+
+#container17 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly17;
+    animation-duration: 4000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly17 {
+    0% {left: -3000px; top: 4000px}
+    25% {left: -1500px; top: 3600px}
+    50% {left: 0px; top: 3400px;}
+    75% {left: 1500px; top: 3000px;}
+    100% {left: 3000px; top: 2600px}   
+}
+
+#container18 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly18;
+    animation-duration: 3500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly18 {
+    0% {left: -3000px; top: 100px}
+    25% {left: -1500px; top: 500px}
+    50% {left: 0px; top: 1000px;}
+    75% {left: 1500px; top: 1500px;}
+    100% {left: 3000px; top: 2000px}  
+}
+
+#container19 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly19;
+    animation-duration: 4600ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly19 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 1900px}
+    50% {left: 0px; top: 1300px;}
+    75% {left: 1500px; top: 700px;}
+    100% {left: 3000px; top: 100px}   
+}
+
+#container20 {
+    position: relative;
+    margin: 0px auto;
+    top: 30vh;
+    width: 400px;
+    height: 400px;
+
+    animation-name: fly20;
+    animation-duration: 5200ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fly20 {
+    0% {left: -3000px; top: 2500px}
+    25% {left: -1500px; top: 2000px}
+    50% {left: 0px; top: 1500px;}
+    75% {left: 1500px; top: 1000px;}
+    100% {left: 3000px; top: 500px}   
+}
+
+/* body of the bird */
+.bird {
+    position: relative;
+    left: 150px;
+    background-color: rgb(0, 0, 0);
+    top: 170px;
+    width: 100px;
+    height: 100px;
+
+    animation-name: body1;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body1 {
+    0% {top: 170px}
+    100% {top: 160px}   
+}
+
+.bird2 {
+    position: relative;
+    left: 200px;
+    background-color: rgb(0, 0, 0);
+    top: 70px;
+    width: 80px;
+    height: 80px;
+
+    animation-name: body2;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body2 {
+    0% {top: 70px}
+    100% {top: 60px}   
+}
+
+.bird3 {
+    position: relative;
+    left: 250px;
+    background-color: rgb(0, 0, 0);
+    top: 0px;
+    width: 60px;
+    height: 60px;
+
+    animation-name: body3;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body3 {
+    0% {top: 0px}
+    100% {top: -10px}   
+}
+
+.bird4 {
+    position: relative;
+    left: 100px;
+    background-color: rgb(0, 0, 0);
+    top: -40px;
+    width: 80px;
+    height: 80px;
+
+    animation-name: body4;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body4 {
+    0% {top: -40px}
+    100% {top: -50px}   
+}
+
+.bird5 {
+    position: relative;
+    left: 290px;
+    background-color: rgb(0, 0, 0);
+    top: -120px;
+    width: 40px;
+    height: 20px;
+
+    animation-name: body5;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body6 {
+    0% {top: -120px}
+    100% {top: -130px}   
+}
+
+.bird6 {
+    position: relative;
+    left: 60px;
+    background-color: rgb(0, 0, 0);
+    top: -120px;
+    width: 130px;
+    height: 50px;
+
+    animation-name: body6;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body6 {
+    0% {top: -120px}
+    100% {top: -130px}   
+}
+
+/* wings of the bird */
+.bird7 {
+    position: relative;
+    left: 220px;
+    background-color: rgb(0, 0, 0);
+    top: -280px;
+    width: 70px;
+    height: 100px;
+
+    animation-name: rightlower;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.25, 0.165, 0.82, 0.075)
+}
+
+@keyframes rightlower {
+    0% {top: -280px}
+    100% {top: -220px}
+}
+
+.bird8 {
+    position: relative;
+    left: 250px;
+    background-color: rgb(0, 0, 0);
+    top: -450px;
+    width: 50px;
+    height: 100px;
+
+    animation-name: rightupper;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.25, 0.165, 0.82, 0.075)
+}
+
+@keyframes rightupper {
+    0% {top: -450px}
+    100% {top: -260px}
+}
+
+.bird9 {
+    position: relative;
+    left: 100px;
+    background-color: rgb(0, 0, 0);
+    top: -450px;
+    width: 80px;
+    height: 100px;
+
+    animation-name: leftlower;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.25, 0.165, 0.82, 0.075)
+}
+
+@keyframes leftlower {
+    0% {top: -450px}
+    100% {top: -430px}
+}
+
+.bird10 {
+    position: relative;
+    left: 80px;
+    background-color: rgb(0, 0, 0);
+    top: -600px;
+    width: 60px;
+    height: 100px;
+
+    animation-name: leftmiddle;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.25, 0.165, 0.82, 0.075)
+}
+
+@keyframes leftmiddle {
+    0% {top: -600px}
+    100% {top: -500px}
+}
+
+.bird11 {
+    position: relative;
+    left: 40px;
+    background-color: rgb(0, 0, 0);
+    top: -750px;
+    width: 50px;
+    height: 100px;
+
+    animation-name: leftupper;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.25, 0.165, 0.82, 0.075)
+}
+
+@keyframes leftupper {
+    0% {top: -750px}
+    100% {top: -580px}
+}
+
+.bird12 {
+    position: relative;
+    left: 20px;
+    background-color: rgb(0, 0, 0);
+    top: -640px;
+    width: 100px;
+    height: 40px;
+
+    animation-name: body7;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body7 {
+    0% {top: -640px}
+    100% {top: -650px}   
+}

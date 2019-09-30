@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(164, 207, 207);
+}
+
+h1{
+    font-family: fantasy;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#trigger1{
+    position: relative;
+    left: 200px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+
+}
+
+#trigger1:hover .box{
+    width: 10px; 
+    height: 20px;
+    background-color: rgb(194, 144, 205);
+
+    transition-property: width, height, background-color;
+    transition-duration: 2000ms, 1000ms, 2000ms;
+    transition-delay: 100ms, 300ms, 400ms;
+    transition-timing-function: ease-in, ease-out, linear;
+
+}
+
+.box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    /* transition-property: width, height, background-color;
+    transition-duration: 2000ms, 1000ms, 2000ms;
+    transition-timing-function: ease-in, ease-out, linear;
+    transition-delay: 100ms, 300ms, 400ms; */
+
+    /* transition: [property][duration][timing-function] */
+
+    /* transition: width 2000ms, 1000ms, ease-in;
+    transition: height 500ms ease-in;
+    transition: background-color 4000ms ease-out; */
+}
+
+.box{
+    border: 3px solid black;
+}
+
+.coral {
+    background-color: lightcoral;
+}
