@@ -1,0 +1,25 @@
+/* wild card character */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    position: relative;
+    top: 300px;
+    left: 100px;
+    width: 500px;
+    height: 200px;
+    background-color: plum;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+    position: relative;
+    top: 300px;
+    left: 100px;
+    width: 500px;
+    height: 200px;
+    background-color: goldenrod;
+    }
+}
