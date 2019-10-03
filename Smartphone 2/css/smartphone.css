@@ -52,7 +52,7 @@ h1{
 
     width: 80px;
     height: 80px;
-    margin: auto;
+    /* margin: auto; */
     transition: 1s;
     background-position: center;
     background-size: 300%;
