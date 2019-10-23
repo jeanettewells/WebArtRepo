@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: lightgrey;
+    border-radius: 30%;
+    color: red;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#intro-div {
+    padding: 20px;
+    color: black;
+    background-color: purple;
+    border-radius: 5%;
+}
+
+.enter {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+#output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    width: 200px;
+    height: 200px;
+}
+
+#winner {
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px grey;
+    font-size: 20px;
+}

@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    position: relative;
+    width: 100px;
+}
+
+.container {
+    position: relative;
+    top: -20px;
+    margin: 0px auto;
+    width: 65%;
+    height: 900px;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+    top: -30px;
+    width: 80%;
+    height: 800px;
+    }
+}
+
+/* HEADER */
+
+.header {
+    position: relative;
+    margin: 0px auto;
+    top: 80px;
+    width: 600px;
+    height: 120px;
+    background-image: url(../content/Screen\ Shot\ 2019-06-27\ at\ 8.36.12\ PM.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+    top: 100px;
+    margin: 0px auto;
+    width: 350px;
+    height: 100px;
+    }
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(247, 214, 68);
+}
+
+/* INDEX */
+
+.index {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: rgba(139, 137, 137, 0.536);
+    position: relative;
+    align-content: center;
+    background-size: contain;
+    margin: 0px auto;
+    top: 80px;
+    width: 530px;
+    height: 3px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .index {
+    font-size: 10px;
+    position: relative;
+    top: 100px;
+    margin: 0px auto;
+    width: 330px;
+    height: 100px;
+    flex-direction: column;
+    }
+}
+
+.indextext {
+    position: relative;
+    margin: 0px auto;
+    top: 2px;
+    align-content: space-between;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-size: contain;
+}
+
+@media screen and (max-width: 500px) {
+    .index {
+    flex-direction: column;
+    }
+}
+
+/* INDEX BOXES */
+
+.designindex {
+    position: relative;
+    margin: 0px auto;
+    top: 200px;
+    width: 100%;
+    height: 280px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.designindextext {
+    position: relative;
+    margin: 0px auto;
+    top: 185px;
+    width: 100%;
+    height: 280px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1 {
+    width: 29%;
+    height: 270px;
+    background-image: url(../content/cs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box1:hover {
+    background-image: url(../content/cs\ copy.png);
+}
+
+.box2 {
+    width: 29%;
+    height: 270px;
+    background-image: url(../content/vc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box2:hover {
+    background-image: url(../content/vc\ copy.png);
+}
+
+.box3 {
+    width: 29%;
+    height: 270px;
+    background-image: url(../content/glitch.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.box3:hover {
+    /* background-image: url(../content/glitch-copy.gif); */
+}
+
+.box4 {
+    width: 29%;
+    height: 70px;
+}
+
+.box5 {
+    width: 29%;
+    height: 70px;
+}
+
+.box6 {
+    width: 29%;
+    height: 70px;
+}
+
+/* SOCIAL */
+
+.social {
+    position: relative;
+    top: 40px;
+    margin: 0px auto;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .social {
+    top: -50px;
+    width: 120px;
+    height: 35px;
+    }
+}
+
+.mail {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/mailb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .mail {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.mail:hover {
+    width: 30px;
+    height: 70px;
+    background-image: url(../content/maily.png);
+}
+.facebook {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/facebookb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .facebook {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.facebook:hover {
+    background-image: url(../content/facebooky.png);
+}
+
+.instagram {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .instagram {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.instagram:hover {
+    background-image: url(../content/instagramy.png);
+    background-repeat: no-repeat;
+}
+
+.linkedin {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/linkedinb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .linkedin {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.linkedin:hover {
+    background-image: url(../content/linkediny.png);
+}
+
+/* PARAGRAPH STYLES */
+
+.headingtext {
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 0px auto;
+    position: relative;
+    top: 155px;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    font-size: 13px;
+    color: black;
+    font-display: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 13px;
+}
+
+h2:hover {
+    color: rgb(247, 214, 68);
+}
+
+h3 {
+
+}
+
+h4 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+}
+
+h4:hover {
+    color: rgb(247, 214, 68);
+}
+
+/* LOGO */
+.sunflower {
+    position: relative;
+    top: -75px;
+    margin: 0px auto;
+    width: 50px;
+    height: 70px;
+    background-image: url(../content/ezgif.com-gif-maker-2.gif);
+    background-size: contain;
+    background-repeat: none;s
+}
+

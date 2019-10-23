@@ -1,0 +1,647 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    position: relative;
+    width: 100px;
+}
+
+.container {
+    position: relative;
+    top: -20px;
+    margin: 0px auto;
+    width: 65%;
+    height: 14400px;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+    top: -30px;
+    width: 80%;
+    height: 800px;
+    }
+}
+
+/* HEADER */
+
+.header {
+    position: relative;
+    margin: 0px auto;
+    top: 80px;
+    width: 600px;
+    height: 120px;
+    background-image: url(../content/Screen\ Shot\ 2019-06-27\ at\ 8.36.12\ PM.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+    top: 100px;
+    margin: 0px auto;
+    width: 350px;
+    height: 100px;
+    }
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(247, 214, 68);
+}
+
+/* INDEX */
+
+.index {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: rgba(139, 137, 137, 0.536);
+    position: relative;
+    align-content: center;
+    background-size: contain;
+    margin: 0px auto;
+    top: 80px;
+    width: 530px;
+    height: 3px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .index {
+    font-size: 10px;
+    position: relative;
+    top: 100px;
+    margin: 0px auto;
+    width: 330px;
+    height: 100px;
+    flex-direction: column;
+    }
+}
+
+.indextext {
+    position: relative;
+    margin: 0px auto;
+    top: 2px;
+    align-content: space-between;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-size: contain;
+}
+
+@media screen and (max-width: 500px) {
+    .index {
+    flex-direction: column;
+    }
+}
+
+/* SOCIAL */
+
+.social {
+    position: relative;
+    top: 14100px;
+    margin: 0px auto;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .social {
+    top: -50px;
+    width: 120px;
+    height: 35px;
+    }
+}
+
+.mail {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/mailb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .mail {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.mail:hover {
+    width: 30px;
+    height: 70px;
+    background-image: url(../content/maily.png);
+}
+
+.facebook {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/facebookb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .facebook {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.facebook:hover {
+    background-image: url(../content/facebooky.png);
+}
+
+.instagram {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .instagram {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.instagram:hover {
+    background-image: url(../content/instagramy.png);
+    background-repeat: no-repeat;
+}
+
+.linkedin {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../content/linkedinb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .linkedin {
+    width: 30px;
+    height: 60px;
+    }
+}
+
+.linkedin:hover {
+    background-image: url(../content/linkediny.png);
+}
+
+/* ARTWORKS */
+/* DRAWING GALLERY */
+
+.drawinggallery {
+    position: relative;
+    margin: 0px auto;
+    left: -130px;
+    top: 120px;
+    width: 800px;
+    height: 10000px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .drawinggallery {
+    left: -20px;
+    top: 80px;
+    width: 700px;
+    height: 10000px;
+    }
+}
+
+.work1 {
+    background-image: url(../content/2.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: none;
+    left: 20px;
+}
+
+/* .work1trigger {
+    background-color: red;
+    position: relative;
+    margin: 0px auto;
+    top: -750px;
+    width: 50%;
+    height: 460px;
+} */
+
+.work1:hover {
+    background-image: url(../content/2\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+/* .work1text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+    width: 300px;
+    height: 50px;
+    top: -360px;
+    display: none;
+} */
+
+.work2 {
+    background-image: url(../content/3.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 360px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work2:hover {
+    background-image: url(../content/3\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work3 {
+    background-image: url(../content/6.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 525px;
+    background-size: contain;
+    background-repeat: none;
+    left: 0px;
+}
+
+.work3:hover {
+    background-image: url(../content/6\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work4 {
+    background-image: url(../content/4.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 510px;
+    background-size: contain;
+    background-repeat: none;
+    left: -5px;
+}
+
+.work4:hover {
+    background-image: url(../content/4\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work5 {
+    background-image: url(../content/7.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 525px;
+    background-size: contain;
+    background-repeat: none;
+    left: 10px;
+}
+
+.work5:hover {
+    background-image: url(../content/7\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work6 {
+    background-image: url(../content/8.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 870px;
+    background-size: contain;
+    background-repeat: none;
+    left: 10px;
+}
+
+.work6:hover {
+    background-image: url(../content/8\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+    width: 110%;
+}
+
+.work7 {
+    background-image: url(../content/9.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 415px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work7:hover {
+    background-image: url(../content/9\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work8 {
+    background-image: url(../content/11.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 285px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work8:hover {
+    background-image: url(../content/11\ copy.png);
+    /* top: -50px; */
+    width: 120%;
+    left: -50px;
+}
+
+.work9 {
+    background-image: url(../content/12.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 420px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work9:hover {
+    background-image: url(../content/12\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work10 {
+    background-image: url(../content/15.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 385px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work10:hover {
+    background-image: url(../content/15\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work11 {
+    background-image: url(../content/16.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work11:hover {
+    background-image: url(../content/16\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work12 {
+    background-image: url(../content/13.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 330px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work12:hover {
+    background-image: url(../content/13\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+.work13 {
+    background-image: url(../content/asd.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 595px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work13:hover {
+    background-image: url(../content/asd\ copy.png);
+    /* top: -50px; */
+    left: -50px;
+}
+
+/* MIXED MEDIA GALLERY */
+
+.mixedmediagallery {
+    position: relative;
+    margin: 0px auto;
+    left: -130px;
+    top: 70px;
+    width: 800px;
+    height: 2450px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .mixedmediagallery {
+    left: -20px;
+    top: 80px;
+    width: 700px;
+    height: 10000px;
+    }
+}
+
+.work14 {
+    background-image: url(../content/1.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 935px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work14:hover {
+    background-image: url(../content/1\ copy.png);
+    /* top: -50px; */
+    left: -200px;
+    width: 148%;
+}
+
+.work15 {
+    background-image: url(../content/10.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 470px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work15:hover {
+    background-image: url(../content/10\ copy.png);
+    /* top: -50px; */
+    left: -150px;
+    width: 128%;
+}
+
+.work16 {
+    background-image: url(../content/14.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 395px;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.work16:hover {
+    background-image: url(../content/14\ copy.png);
+    /* top: -50px; */
+    left: -145px;
+    width: 128%;
+}
+
+/* INK GALLERY */
+
+.inkgallery {
+    position: relative;
+    margin: 0px auto;
+    left: -130px;
+    top: -30px;
+    width: 800px;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: none;
+}
+
+@media screen and (max-width: 500px) {
+    .ink {
+    left: -20px;
+    top: 80px;
+    width: 700px;
+    height: 10000px;
+    }
+}
+
+.work17 {
+    background-image: url(../content/17.png);
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 660px;
+    background-size: contain;
+    background-repeat: none;
+    left: 25px;
+    top: 100px;
+}
+
+.work17:hover {
+    background-image: url(../content/17\ copy.png);
+    /* top: -50px; */
+    left: -25px;
+}
+
+@media screen and (max-width: 500px) {
+    .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8, .work9, .work10, .work11, .work12, .work13, .work14, .work15, .work16, .work17 {
+    width: 100%;
+    }
+}
+
+/* LOGO */
+.sunflower {
+    position: relative;
+    top: 14150px;
+    margin: 0px auto;
+    width: 50px;
+    height: 70px;
+    background-image: url(../content/ezgif.com-gif-maker-2.gif);
+    background-size: contain;
+    background-repeat: none;s
+}
+
+/* PARAGRAPH STYLES */
+
+.headingtext {
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 0px auto;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    font-size: 13px;
+    color: black;
+    font-display: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 13px;
+}
+
+h2:hover {
+    color: rgb(247, 214, 68);
+}
+
+
+
+
+
