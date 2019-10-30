@@ -130,7 +130,7 @@ a:hover {
     position: relative;
     margin: 0px auto;
     top: 155px;
-    width: 300px;
+    width: 400px;
     height: 500px;
     align-items: flex;
     background-image: url(../content/ezgif.com-gif-maker-2.gif);
@@ -138,6 +138,11 @@ a:hover {
     background-size: contain;
     display: flex;
 }
+
+/* .sunflower:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+} */
 
 @media screen and (max-width: 500px) {
     .sunflower {
@@ -149,7 +154,7 @@ a:hover {
 
 .social {
     position: relative;
-    top: 100px;
+    top: 120px;
     margin: 0px auto;
     width: 80px;
     height: 35px;

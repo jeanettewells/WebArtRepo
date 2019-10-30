@@ -13,14 +13,14 @@
     top: -20px;
     margin: 0px auto;
     width: 65%;
-    height: 900px;
+    height: 400px;
 }
 
 @media screen and (max-width: 500px) {
     .container {
     top: -30px;
     width: 80%;
-    height: 800px;
+    height: 400px;
     }
 }
 
@@ -108,7 +108,7 @@ a:hover {
 .designindex {
     position: relative;
     margin: 0px auto;
-    top: 215px;
+    top: 200px;
     width: 100%;
     height: 280px; 
     display: flex;
@@ -120,7 +120,7 @@ a:hover {
 .designindex2 {
     position: relative;
     margin: 0px auto;
-    top: -20px;
+    top: -40px;
     width: 100%;
     height: 280px; 
     display: flex;
@@ -132,7 +132,7 @@ a:hover {
 .designindex3 {
     position: relative;
     margin: 0px auto;
-    top: -250px;
+    top: -275px;
     width: 100%;
     height: 280px; 
     display: flex;
@@ -144,7 +144,7 @@ a:hover {
 .designindextext {
     position: relative;
     margin: 0px auto;
-    top: 200px;
+    top: 185px;
     width: 100%;
     height: 280px; 
     display: flex;
@@ -155,7 +155,7 @@ a:hover {
 .designindextext2 {
     position: relative;
     margin: 0px auto;
-    top: -30px;
+    top: -50px;
     width: 100%;
     height: 280px; 
     display: flex;
@@ -166,7 +166,7 @@ a:hover {
 .designindextext3 {
     position: relative;
     margin: 0px auto;
-    top: -260px;
+    top: -290px;
     width: 100%;
     height: 280px; 
     display: flex;
@@ -177,31 +177,32 @@ a:hover {
 .box1 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/facebook.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .box1:hover {
-    background-image: url(../content/cs\ copy.png);
+    /* background-image: url(); */
 }
 
 .box2 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/entrop.gif);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 110%;
+    background-position: center;
 }
 
 .box2:hover {
-    background-image: url(../content/vc\ copy.png);
+    /* background-image: url(); */
 }
 
 .box3 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/remem.gif);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -229,31 +230,32 @@ a:hover {
 .box7 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/18.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
 }
 
 .box7:hover {
-    background-image: url(../content/cs\ copy.png);
+    /*  */
 }
 
 .box8 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/eyes.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    background-position: center;
 }
 
 .box8:hover {
-    background-image: url(../content/vc\ copy.png);
+    /* background-image: url(../content/vc\ copy.png); */
 }
 
 .box9 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/merica.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -282,25 +284,26 @@ a:hover {
 .box13 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/breathe.gif);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    background-position: center;
 }
 
 .box13:hover {
-    background-image: url(../content/cs\ copy.png);
+    /* background-image: url(../content/cs\ copy.png); */
 }
 
 .box14 {
     width: 29%;
     height: 270px;
-    background-color: thistle;
+    background-image: url(../content/bra.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .box14:hover {
-    background-image: url(../content/vc\ copy.png);
+    /* background-image: url(../content/vc\ copy.png); */
 }
 
 .box15 {
@@ -334,7 +337,7 @@ a:hover {
 
 .social {
     position: relative;
-    top: -410px;
+    top: -510px;
     margin: 0px auto;
     width: 80px;
     height: 35px;
@@ -486,7 +489,6 @@ h4 {
 }
 
 h4:hover {
-    color: rgb(247, 214, 68);
 }
 
 /* LOGO */
@@ -498,6 +500,6 @@ h4:hover {
     height: 70px;
     background-image: url(../content/ezgif.com-gif-maker-2.gif);
     background-size: contain;
-    background-repeat: none;s
+    background-repeat: none;
 }
 

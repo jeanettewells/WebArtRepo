@@ -13,7 +13,7 @@
     top: -20px;
     margin: 0px auto;
     width: 65%;
-    height: 10000px;
+    height: 900px;
 }
 
 @media screen and (max-width: 500px) {
@@ -103,13 +103,90 @@ a:hover {
     }
 }
 
+/* INDEX BOXES */
+
+.designindex {
+    position: relative;
+    margin: 0px auto;
+    top: 200px;
+    width: 100%;
+    height: 280px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.designindextext {
+    position: relative;
+    margin: 0px auto;
+    top: 185px;
+    width: 100%;
+    height: 280px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1 {
+    width: 29%;
+    height: 270px;
+    background-image: url(../content/light.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box1:hover {
+    /* background-image: url(../content/cs\ copy.png); */
+}
+
+.box2 {
+    width: 29%;
+    height: 270px;
+    background-image: url(../content/learn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box2:hover {
+    /* background-image: url(../content/vc\ copy.png); */
+}
+
+.box3 {
+    width: 29%;
+    height: 270px;
+    /* background-image: url(../content/glitch.gif); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.box3:hover {
+    /* background-image: url(../content/glitch-copy.gif); */
+}
+
+.box4 {
+    width: 29%;
+    height: 70px;
+}
+
+.box5 {
+    width: 29%;
+    height: 70px;
+}
+
+.box6 {
+    width: 29%;
+    height: 70px;
+}
+
 /* SOCIAL */
 
 .social {
     position: relative;
     top: 40px;
     margin: 0px auto;
-    width: 120px;
+    width: 80px;
     height: 35px;
     display: flex;
     flex-direction: row;
@@ -212,5 +289,64 @@ a:hover {
 
 .linkedin:hover {
     background-image: url(../content/linkediny.png);
+}
+
+/* PARAGRAPH STYLES */
+
+.headingtext {
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 0px auto;
+    position: relative;
+    top: 155px;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    font-size: 13px;
+    color: black;
+    font-display: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 13px;
+}
+
+h2:hover {
+    color: rgb(247, 214, 68);
+}
+
+h3 {
+
+}
+
+h4 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+}
+
+h4:hover {
+}
+
+/* LOGO */
+.sunflower {
+    position: relative;
+    top: -75px;
+    margin: 0px auto;
+    width: 50px;
+    height: 70px;
+    background-image: url(../content/ezgif.com-gif-maker-2.gif);
+    background-size: contain;
+    background-repeat: none;s
 }
 

@@ -107,9 +107,9 @@ a:hover {
 
 .social {
     position: relative;
-    top: 14100px;
+    top: 14175px;
     margin: 0px auto;
-    width: 120px;
+    width: 80px;
     height: 35px;
     display: flex;
     flex-direction: row;
@@ -602,7 +602,7 @@ a:hover {
 /* LOGO */
 .sunflower {
     position: relative;
-    top: 14150px;
+    top: 14060px;
     margin: 0px auto;
     width: 50px;
     height: 70px;
